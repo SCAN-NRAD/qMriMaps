@@ -1,0 +1,53 @@
+Key,Name,Lobe
+MeanThickness,Global Mean Cortical Thickness,
+Lateral-Ventricle,Lateral ventricle,
+Inf-Lat-Vent,Inferior horn of lateral ventricle,
+Cerebellum-White-Matter,Cerebellar white matter,
+Cerebellum-Cortex,Cerebellar cortex,
+Thalamus-Proper,Thalamus,
+Caudate,Caudate nucleus,
+Putamen,Putamen,
+Pallidum,Globus pallidus,
+Brain-Stem,Brainstem,
+Hippocampus,Hippocampus,
+Amygdala,Amygdala,
+Accumbens-area,Nucleus accumbens,
+VentralDC,Ventral diencephalon,
+WM-hypointensities,White matter hypointensities,
+CC_sum,Corpus callosum,
+CerebralWhiteMatter,Cerebral white matter,
+TotalGray,Total gray matter,
+bankssts,Banks of the superior temporal sulcus,Temporal
+caudalanteriorcingulate,Caudal anterior cingulate cortex,Cingulate
+caudalmiddlefrontal,Caudal middle frontal gyrus,Frontal
+cuneus,Cuneus,Occipital
+entorhinal,Entorhinal cortex,Temporal
+fusiform,Fusiform gyrus,Temporal
+inferiorparietal,Inferior parietal lobule,Parietal
+inferiortemporal,Inferior temporal gyrus,Temporal
+isthmuscingulate,Isthmus of the cingulate cortex,Cingulate
+lateraloccipital,Lateral occipital cortex,Occipital
+lateralorbitofrontal,Lateral orbitofrontal cortex,Frontal
+lingual,Lingual gyrus,Occipital
+medialorbitofrontal,Medial orbitofrontal cortex,Frontal
+middletemporal,Middle temporal gyrus,Temporal
+parahippocampal,Parahippocampal gyrus,Temporal
+paracentral,Paracentral lobule,Frontal
+parsopercularis,Pars opercularis,Frontal
+parsorbitalis,Pars orbitalis,Frontal
+parstriangularis,Pars triangularis,Frontal
+pericalcarine,Pericalcerine cortex,Occipital
+postcentral,Postcentral gyrus,Parietal
+posteriorcingulate,Posterior cingulate cortex,Cingulate
+precentral,Precentral gyrus,Frontal
+precuneus,Precuneus,Parietal
+rostralanteriorcingulate,Rostral anterior cingulate cortex,Cingulate
+rostralmiddlefrontal,Rostral middle frontal cortex,Frontal
+superiorfrontal,Superior frontal gyrus,Frontal
+superiorparietal,Superior parietal lobule,Parietal
+superiortemporal,Superior temporal gyrus,Temporal
+supramarginal,Supramarginal gyrus,Parietal
+frontalpole,Frontal pole,Frontal
+temporalpole,Temporal pole,Temporal
+transversetemporal,Transverse temporal gyrus,Temporal
+insula,Insular cortex,
