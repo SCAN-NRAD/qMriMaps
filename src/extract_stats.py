@@ -36,7 +36,7 @@ def main(anat_dir, maps_dir, maps_subdir, result_dir):
     subjects = sorted(os.listdir(maps_dir))
     
     if len(MAPS) == 0:
-        MAPS.extend([m.split('.')[0] for m in os.listdir('{}/{}/{}'.format(maps_dir, subjects[0], maps_subdir))])
+        MAPS.extend([m.split('.')[0] for m in os.listdir('{}/{}/{}'.format(maps_dir, subjects[0], maps_subdir)) if not 'RESULTS_' in m])
         
     with open('{}/maps.txt'.format(result_dir), 'w') as file:
         file.write(','.join(MAPS))

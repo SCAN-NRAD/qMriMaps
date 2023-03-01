@@ -82,8 +82,8 @@ plot_all_brain_pdf <- function(stats, metric, filename, scale_limits = c(NA, NA)
   values <- select(stats, c(cortical_metrics))
   cohort_mean <- colMeans(values, na.rm = TRUE)
   
-  fix_gradient_scale_cohort <- c(min(cohort_mean, na.rm=TRUE), mean(stats$TotalCortex), max(cohort_mean, na.rm=TRUE))
-  fix_gradient_scale_subject <- c(min(values, na.rm=TRUE), mean(stats$TotalCortex), max(values, na.rm=TRUE))
+  fix_gradient_scale_cohort <- c(min(cohort_mean, na.rm=TRUE), mean(stats$TotalCortex, na.rm=TRUE), max(cohort_mean, na.rm=TRUE))
+  fix_gradient_scale_subject <- c(min(values, na.rm=TRUE), mean(stats$TotalCortex, na.rm=TRUE), max(values, na.rm=TRUE))
   
   # add cohort
   cohort_name <- sprintf('COHORT mean (N=%i)', nrow(stats))

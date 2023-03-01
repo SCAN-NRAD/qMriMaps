@@ -6,18 +6,18 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='qMriMaps',
-    version='0.1',
+    version='1.0',
     description='qMriMaps',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/SCAN-NRAD/qMriMaps',
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Science/Research',
         'Topic :: Scientific/Engineering',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3',
     ],
-    keywords='MRI, ...',
+    keywords='MRI, morphometry, quantitative evaluation, perfusion',
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     python_requires='>=3.7',

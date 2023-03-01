@@ -26,7 +26,7 @@ die() {
 }
 
 # defaults
-MODEL_ARGS=""
+MODEL_ARGS="--model v6"
 T1_FILE=anat/T1.nii.gz
 REF_FILE=perf/tMIP.nii.gz
 
@@ -56,7 +56,6 @@ DST=$2
 SCRIPT_DIR=`dirname $0`/src
 
 # check prerequisites
-#[[ -f ${T1} ]] || die "Invalid input volume: ${T1} not found"
 [[ "`which dl+direct`X" != "X" ]] || die "dl+direct not found. Install it from https://github.com/SCAN-NRAD/DL-DiReCT"
 [[ "`which flirt`X" != "X" ]] || die "FSL flirt not found. Install it from https://fsl.fmrib.ox.ac.uk/fsl/fslwiki"
 [[ "`which Rscript`X" != "X" ]] || die "Rscript not found. Install R"
